@@ -59,14 +59,14 @@ extras_require = {
 }
 
 setuptools.setup(
-    name='tf_object_detection',
-    version='0.0.3',
-    author='Junjue Wang',
-    author_email='junjuew@cs.cmu.edu',
+    name='tensorflow_object_detection',
+    version='0.0.5',
+    author='Mylse Gray',
+    author_email='mg@mylesgray.com',
     description='A Thin Wrapper around Tensorflow Object Detection API for Easy Installation and Use',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/junjuew/tf_object_detection',
+    url='https://github.com/mylesagray/tf_object_detection',
     packages=setuptools.find_packages(
         where='tf_object_detection/research', include=['object_detection', 'object_detection.*']) + setuptools.find_packages(
         where='tf_object_detection/research/slim'),
